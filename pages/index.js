@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Go Tech Plus - Ahead with Education</title>
+        <title>Go Tech Plus | Ahead with Education</title>
         <meta name="description" content="This channel consists of all those videos which help the student to be always overcoming on their risk. It also contains the videos to motivate the student about their goal and not to get out from their way of success. And This channel always has tried to make and take out the unique talent from them. And also It is abound in Physics ocean." />
         <link rel="icon" href="/favicon.ico" />
       </Head>

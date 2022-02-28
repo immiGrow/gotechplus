@@ -8,6 +8,7 @@ import {useRouter} from 'next/router';
 import G from "../../images/G.jpeg";
 import baseUrl from "../../mongodb/baseUrl";
 import styles from "../../styles/Home.module.css";
+import Head from "next/head";
 function UploadContent() {
   const [chapter, setChapter] = useState("")
 const router=useRouter()
@@ -53,6 +54,11 @@ const router=useRouter()
   };
   return (
     <>
+    <Head>
+    <title>Go Tech Plus | Ahead with Education</title>
+        <meta name="description" content="This is the video uploading and sharing site for visitors and users and free to access and easy and convenient to use." />
+        <link rel="icon" href="/favicon.ico" />
+    </Head>
       {context.auth ? (
         <>
           <div className={styles.box}>
