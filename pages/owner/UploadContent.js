@@ -46,8 +46,8 @@ const router=useRouter()
     });
     let reson= await makePost.json()
     if(reson.success){
-      toast(reson.message)
-      router.push("/")
+     await  toast(reson.message)
+      await router.push("/")
     }
       console.log(reson)
   };
