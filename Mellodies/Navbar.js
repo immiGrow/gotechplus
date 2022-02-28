@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
     <nav className={styles.navmenu}>
-      <Link href="/"><Image  className={styles.logo} src={G} height={100} width={80} alt="Go Tech Plus"/></Link> 
+      <Link href="/" ><a ><Image  className={styles.logo} src={G} height={100} width={80} alt="Go Tech Plus"/></a></Link> 
         <ul className={styles.links}>
           
 
@@ -23,7 +23,7 @@ function Navbar() {
           
            </>
            }
-            <Link  href="https://sites.google.com/view/abhishachittod-gotechplus/home?authuser=0"><a target={"_blank"}>About</a></Link>
+            <Link   href="https://sites.google.com/view/abhishachittod-gotechplus/home?authuser=0"><a rel="noreferrer" target={"_blank"} >About</a></Link>
             <Link href="/owner/Owner"><a title="It's Only For Owner of this site" ><BsFillPeopleFill/></a></Link>
         </ul>
     </nav>
