@@ -10,6 +10,12 @@
     background-color: purple;
 }
 
+.youtube {
+    width: 500px;
+    height: 315px;
+    box-shadow: 5px 5px 25px black;
+}
+
 .logo:hover {
     cursor: pointer;
 }

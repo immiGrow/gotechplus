@@ -23,7 +23,7 @@ export default function Eleventh({ response }) {
             <h2 > {video.title} </h2>
             
             <div className={styles.vdec}>
-            <iframe width="560" height="315" src={`https://www.youtube.com/embed/${video.videoUrl}`} title={video.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe className={styles.youtube} src={`https://www.youtube.com/embed/${video.videoUrl}`} title={video.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <p>{video.description}</p>
             <h3>{video.linkname}</h3>
             <a style={{color:"blue"}} rel="noreferrer" target={"_blank"} href={video.link}>{video.linkname}</a>
