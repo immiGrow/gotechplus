@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
     <nav className={styles.navmenu}>
-      <Link href="/" ><a ><Image  className={styles.logo} src={G} height={100} width={80} alt="Go Tech Plus"/></a></Link> 
+      <Link href="/" ><a ><Image  className={styles.logo} src={G} height={60} width={70} alt="Go Tech Plus"/></a></Link> 
         <ul className={styles.links}>
           
 
